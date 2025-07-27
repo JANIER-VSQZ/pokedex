@@ -42,7 +42,7 @@ const PokeList = () => {
                                             imgUrl={imgUrl}
                                             title={p.name}
                                             description=""
-                                            actionLabel="Go to Details"
+                                            actionLabel="Ver detalles"
                                             action={()=>{navigateTo(`/pokelist/${id}`)}}
                                         />
                                     )

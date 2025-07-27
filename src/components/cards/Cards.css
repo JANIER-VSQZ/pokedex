@@ -1,10 +1,14 @@
 @import "tailwindcss";
 .card {
-    @apply border max-w-64;
+    @apply w-30 h-60 flex justify-center items-center flex-col gap-3 rounded-md;
+}
+
+.card:hover{
+    @apply drop-shadow-[0_9px_9px_rgba(0,255,0,0.4)];
 }
 
 .card-header {
-    @apply relative;
+    
 }
 
 .card-header img {
@@ -12,7 +16,7 @@
 }
 
 .card-header h1 {
-    @apply absolute -translate-1/2 top-1/2 left-1/2 text-white;
+    @apply text-black text-center;
 }
 .card-body {
     @apply px-3 py-2;
@@ -22,5 +26,5 @@
     @apply mt-2 flex flex-row flex-wrap;
 }
 .card-footer button{
-    @apply bg-indigo-400 text-white py-2 px-3 rounded shadow flex-1;
+    @apply bg-blue-400 text-white py-2 px-3 rounded shadow flex-1;
 }

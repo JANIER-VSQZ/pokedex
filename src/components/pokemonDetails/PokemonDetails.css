@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+.btnRegresar{
+    @apply flex justify-start 
+
+}
+
+h3{
+    @apply font-bold;
+}
+
+.btnRegresar button{
+    @apply h-8 w-32  bg-black  text-white rounded-md
+}
+
+.contenedor-detalles{
+    @apply w-250 flex justify-center items-center m-auto
+}
+
+.detalles{
+    @apply max-w-120 flex flex-col justify-center m-4 p-4 bg-blue-100 rounded-md text-center
+}
+
+.contenido{
+    @apply w-full flex flex-row
+}
+
+.izquierda{
+    @apply p-4 w-1/2
+}
+
+.derecha{
+    @apply p-4 w-1/2
+}
+
+.pokemon-imagen{
+    @apply flex flex-row items-center justify-center
+}
+

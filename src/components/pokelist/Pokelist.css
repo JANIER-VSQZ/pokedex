@@ -1,4 +1,4 @@
 @import "tailwindcss";
 .card-holder {
-    @apply flex flex-row gap-4 flex-wrap;
+    @apply flex flex-row gap-4 flex-wrap bg-gray-300;
 }
