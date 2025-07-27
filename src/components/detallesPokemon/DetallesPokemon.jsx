@@ -3,9 +3,9 @@ import { useParams } from "react-router";
 
 import { useNavigate } from "react-router";
 
-import './PokemonDetails.css';
+import './EstilosDetalles.css';
 
-const PokemonDetails = () => {
+const DetallesPokemon = () => {
     const { pokemonId } = useParams();
     const [pokemonData, setPokemonData] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
@@ -91,4 +91,4 @@ const PokemonDetails = () => {
     )
 }
 
-export default PokemonDetails;
+export default DetallesPokemon;

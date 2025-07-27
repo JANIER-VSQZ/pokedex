@@ -1,10 +1,11 @@
+import DetallesPokemon from "../components/detallesPokemon/DetallesPokemon";
 import Container from "../components/panels/Container";
-import PokemonDetails from "../components/pokemonDetails/pokemonDetails";
+
 
 const Pokemon = ()=>{
     return (
         <Container>
-            <PokemonDetails />
+            <DetallesPokemon/>
         </Container>
     )
 }
